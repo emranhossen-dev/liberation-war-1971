@@ -13,8 +13,11 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="d-flex justify-content-between container-fluid">
+    <nav
+      style="max-width: 1120px; margin: 0 auto"
+      class="navbar navbar-expand-lg bg-body-tertiary"
+    >
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">Liberation War</a>
         <button
           class="navbar-toggler"
@@ -27,16 +30,21 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse justify-content-end navbar-collapse"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#header"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">History</a>
+              <a class="nav-link" href="#history">History</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Heroes</a>
+              <a class="nav-link" href="#hero">Heroes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Gallery</a>
@@ -49,8 +57,8 @@
       </div>
     </nav>
 
-    <main>
-      <header>
+    <main style="max-width: 1120px; margin: 0 auto">
+      <header id="header">
         <h1 class="heading">Libeartion War 1971</h1>
         <p>
           The Bangladesh Liberation War (1971) was a nine-month armed conflict
@@ -65,13 +73,82 @@
           alt="liberation-war-image"
         />
       </header>
-      <section class="history">
-        <h1 class="heading">
-            History
-        </h1>
-        <h2>
-            Causes of the war 
-        </h2>
+      <section class="history" id="history">
+        <h1 class="heading">History</h1>
+        <h2>Causes of the war</h2>
+        <p>
+          Bangladesh's Independence Day is celebrated on March 26, commemorating
+          the declaration of independence by Bangabandhu Sheikh Mujibur Rahman
+          in the early hours of March 26, 1971, immediately following the
+          Pakistani army's brutal crackdown on March 25, known as Operation
+          Searchlight. This declaration marked the start of the nine-month
+          Liberation War that led to the country’s independence on December 16,
+          1971.
+        </p>
+      </section>
+
+      <section class="hero" id="hero">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://assets.roar.media/Bangla/2017/11/hhjk-701x907.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Motiur Rahman</h5>
+                <p class="card-text">
+                  Bir Sreshtho Matiur Rahman (1941–1971) was a Flight Lieutenant
+                  in the Pakistan Air Force and a, heroic fighter in the
+                  Bangladesh Liberation War. He is one of only seven freedom
+                  fighters to be awarded Bangladesh's highest military gallantry
+                  award, Bir Sreshtho (The Most Valiant Hero), for his supreme
+                  sacrifice.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://en.banglapedia.org/images/4/4b/RaufBirSresthaMunshiAbdur.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Munshi Abdour Rouf</h5>
+                <p class="card-text">
+                  Munshi Abdur Rouf (1943–1971) was a Lance Nayek in the East
+                  Pakistan Rifles (EPR) and one of the seven recipients of
+                  Bangladesh's highest military honor, Bir Sreshtho. He died on
+                  April 8, 1971, in the Chittagong Hill Tracts while bravely
+                  fighting the Pakistani Army, allowing his platoon to retreat,
+                  and was posthumously awarded for his immense bravery during
+                  the 1971 Liberation War.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://www.bssnews.net/assets/news_photos/2022/12/09/image-98977-1670586690.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ruhul Amin</h5>
+                <p class="card-text">
+                  Bir Sreshtho Mohammad Ruhul Amin (1935–1971) was a valiant
+                  Engine Room Artificer in the Bangladesh Navy and one of the
+                  seven recipients of Bangladesh's highest military gallantry
+                  award, Bir Sreshtho
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <script

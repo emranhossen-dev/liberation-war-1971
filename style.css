@@ -1,11 +1,3 @@
-body{
-    max-width: 1120px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
 header img{
     height: 400px;
     width: 100%;
@@ -19,4 +11,15 @@ header h1, p{
 .heading{
     text-align: center;
     margin: 20px 0px;
+}
+
+.nav-items-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card img{
+    width: 250px;
+    
 }
